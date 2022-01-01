@@ -46,3 +46,9 @@ alert(result);
 
 ## __English__
 * A1 (I studied English at school)
+
+
+### __2022__
+
+### __GitHub: [AnnaSevruk](https://github.com/AnnaSevruk)__
+
