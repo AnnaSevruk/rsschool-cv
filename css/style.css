@@ -1,1 +1,217 @@
-1
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('../img/1586356902_37-p-nezhnie-foni-dlya-rezyume-111.jpg')center center/cover no-repeat;
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.name,
+.skilss {
+    min-height: 300px;
+    padding: 10px 0;
+}
+
+.name .name_header {
+    margin-left: 381px;
+    color: #299cbd;
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.name .name_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #494747;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.container .photo_img {
+    width: 200px;
+    position: absolute;
+    top: -5px;
+    left: -100px;
+    border-radius: 10px 100px / 120px;
+    border: groove 2px grey;
+    background: honeydew;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.city_img,
+.phone_img,
+.telegram_img,
+.email_img {
+    height: 30px;
+    width: 30px;
+}
+
+.email_img {
+    height: 25px;
+    width: 30px;
+}
+
+.waiting {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+}
+
+.waiting_header {
+    color: #252525;
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 40px 5px;
+}
+
+.waiting_subheader {
+    color: #494747;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 40px;
+    text-align: center;
+}
+
+.my_hobbies,
+.skilss_header,
+.experience_text,
+.education_text {
+    color: #252525;
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 40px 5px;
+}
+
+.waiting .waiting_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #5e5c57;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 50%;
+    border-radius: 10px 100px / 120px;
+    border: groove 2px grey;
+    background: honeydew;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.skilss .waiting_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #5e5c57;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.skilss .icons_skilss {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+.envelope {
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    background-color: cornsilk;
+    padding: 10px;
+}
+
+.code {
+    color: #252525;
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px;
+}
+
+p {
+    margin: 10px 20px;
+}
+
+.experience .waiting_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #5e5c57;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.experience_list {
+    padding: 10px;
+    margin: 30px;
+    color: #494747;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.education .waiting_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #5e5c57;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.education_text_list,
+.language {
+    padding: 10px;
+    margin: 30px;
+    color: #494747;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.language_text {
+    color: #252525;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: justify;
+    padding: 30px 40px 5px;
+}
